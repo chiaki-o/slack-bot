@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+beautifulsoup4 = "*"
+slackweb = "*"
+python-daemon = "*"
+requests = "*"
+mysql-connector-python = "*"
+selenium = "*"
+chromedriver-binary = "==81.0.4044.138"
+
+[requires]
+python_version = "3.7"
